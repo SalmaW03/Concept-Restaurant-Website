@@ -117,7 +117,7 @@ h3 {
 }
 
 .carousel img { 
-    max-width: 5vw;
+    width: 5vw;
     cursor: pointer;
     margin-top: 20%;
 }
