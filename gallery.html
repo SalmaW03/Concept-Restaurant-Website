@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CROÛTE</title>
+
+    <link href="gallery.css" rel="stylesheet">
+    <link href="style.css" rel="stylesheet"></style>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap" rel="stylesheet">
+
+    <script src="script.js" defer></script>
+    <script src="footer.js" defer></script>
+</head>
+<body>
+    <main>
+        <a href="index.html">
+            <my-header></my-header>
+        </a>
+        
+        <my-nav></my-nav>
+
+        <h2 class="h2">GALLERY</h2>
+
+        <nav>
+            <ul class="navbox">
+                <li class="navigation">
+                    <a href="index.html">HOME</a>
+                </li>
+                <li class="navigation">
+                    <a href="order.html">ORDER</a>
+                </li>
+                <li class="navigation">
+                    <a href="menu.html">MENU</a>
+                </li>
+                <li class="navigation">
+                    <a href="#hours">HOURS & LOCATION</a>
+                </li>
+            </ul>
+        </nav>
+
+        <section id="container">
+        <div class="gallery" id="target">
+            <img class="image" src="images/pexels-polina-tankilevitch-4109111.jpg" onclick="zoom(this.src)">
+            <p class="attribute">
+                <a href="https://www.pexels.com/photo/person-holding-a-slice-of-pizza-4109111/" target="blank" rel="external nofollow"> Image created by Polina Tankilevitch - Pexels</a>          
+            </p>
+        </div>
+             
+        <div class="gallery" id="target1">
+            <img class="image" src="images/pexels-leeloothefirst-5602610.jpg" onclick="zoom(this.src)">
+            <p class="attribute">
+                <a id="pic1" href="https://www.pexels.com/photo/overhead-shot-of-anchovies-on-pieces-of-bread-5602610/" target="blank" rel="external nofollow">Image created by Leeloo The First - Pexels</a>          
+            </p>
+        </div>
+        
+        <div class="gallery" id="target2">
+            <img class="image" src="images/pexels-yusuf-kaya-288172498-20117232.jpg" onclick="zoom(this.src)">
+            <p class="attribute">
+                <a href="https://www.pexels.com/photo/truffles-on-pizza-20117232/" target="blank" rel="external nofollow">Image created by Yusuf Kaya - Pexels</a>          
+            </p>
+        </div> 
+        
+        <div class="gallery" id="target3">
+            <img class="image" src="images/pexels-vanessa-pozos-3368660-24018365.jpg" onclick="zoom(this.src)">
+            <p class="attribute">
+                <a href="https://www.pexels.com/photo/salad-with-roast-peach-on-plate-24018365/" target="blank" rel="external nofollow">Image created by Vanessa Pozos - Pexels</a>          
+            </p>
+        </div>
+
+        <div class="gallery" id="target4">
+            <img class="image" src="images/pexels-karolina-grabowska-4021995.jpg" onclick="zoom(this.src)">
+            <p class="attribute">
+                <a href="https://www.pexels.com/photo/glass-of-fresh-cocktail-on-white-background-4021995/" target="blank" rel="external nofollow" style="color: black;">Image created by Karolina Kaboompics - Pexels</a>          
+            </p>
+        </div>
+
+        <div class="gallery" id="target5">
+            <img class="image" src="images/pexels-tim-douglas-6210838.jpg" onclick="zoom(this.src)">
+            <p class="attribute">
+                <a href="https://www.pexels.com/photo/tasty-pie-slice-and-baked-pear-on-black-plate-6210838/" target="blank" rel="external nofollow">Image created by Tim Douglas - Pexels</a>          
+            </p>
+        </div>
+
+        <div class="gallery" id="target6">
+            <img class="image" src="images/pexels-renestrgar-19968430.jpg" onclick="zoom(this.src)">
+            <p class="attribute">
+                <a href="https://www.pexels.com/photo/pizzas-and-silverware-19968430/" target="blank" rel="external nofollow">Image created by Rene Strgar - Pexels</a>          
+            </p>
+        </div>
+
+        <div class="gallery" id="target7">
+            <img class="image" src="images/pexels-nadin-sh-78971847-20844860.jpg" onclick="zoom(this.src)">
+            <p class="attribute">
+                <a href="https://www.pexels.com/photo/pizza-served-in-a-restaurant-20844860/" target="blank" rel="external nofollow">Image created by Nadin Sh - Pexels</a>          
+            </p>
+        </div>
+
+        <div class="gallery" id="target8">
+            <img class="image" src="images/pexels-giona-mason-1751396-19260827.jpg" onclick="zoom(this.src)">
+            <p class="attribute">
+                <a href="https://www.pexels.com/photo/leaves-on-pizza-19260827/" target="blank" rel="external nofollow" style="color: black;">Image created by Giona Mason - Pexels</a>          
+            </p>
+        </div>
+        <div class="gallery" id="target9">
+            <img class="image" src="images/pexels-nerfee-mirandilla-1656989-3186752.jpg" onclick="zoom(this.src)">
+            <p class="attribute">
+                <a href="https://www.pexels.com/photo/blue-juice-with-mint-herb-3186752/" target="blank" rel="external nofollow" style="color: black;">Image created by Nerfee Mirandilla - Pexels</a>          
+            </p>
+        </div>
+        <div class="gallery" id="target10">
+            <img class="image" src="images/pexels-valeriya-10875220.jpg" onclick="zoom(this.src)">
+            <p class="attribute">
+                <a href="https://www.pexels.com/photo/baked-pepperoni-pizza-cut-in-triangular-portions-10875220/" target="blank" rel="external nofollow">Image created by Valeria Boltneva - Pexels</a>          
+            </p>
+        </div>
+        <div class="gallery" id="target11">
+            <img class="image" src="images/pexels-jdgromov-12419161.jpg" onclick="zoom(this.src)">
+            <p class="attribute">
+                <a href="https://www.pexels.com/photo/fruit-alcoholic-cocktail-in-glass-12419161/" target="blank" rel="external nofollow" style="color: black;">Image created by Denys Gromov - Pexels</a>          
+            </p>
+        </div>
+        <div class="gallery" id="target12">
+            <img class="image" src="images/pexels-valeriya-10875297.jpg" onclick="zoom(this.src)">
+            <p class="attribute">
+                <a href="https://www.pexels.com/photo/classic-pizza-baked-and-cut-in-triangular-servings-10875297/" target="blank" rel="external nofollow">Image created by Valeria Boltneva - Pexels</a>          
+            </p>
+        </div>
+        <div class="gallery" id="target13">
+            <img class="image" src="images/pexels-nadin-sh-78971847-17478678.jpg" onclick="zoom(this.src)">
+            <p class="attribute">
+                <a href="https://www.pexels.com/photo/salad-on-plate-17478678/" target="blank" rel="external nofollow">Image created by Nadin Sh - Pexels</a>          
+            </p>
+        </div>
+
+
+        <span id="close-zoom" onclick="closeZoom()">
+            <div id="full-screen-view">
+                <div class="bg">
+                    <img id="fullscreen">
+                    <a id="demo"></a>
+                </div>
+            </div>
+        </span>
+    </main>
+    <my-footer></my-footer>
+</body>
+</html>
