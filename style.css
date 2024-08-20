@@ -211,8 +211,6 @@ body.hide {
     overflow: hidden; 
 }
 
-.nonee { display: none; }
-
 .hide1 { overflow: hidden; }
 
 @media all and (min-width: 1200px) {
