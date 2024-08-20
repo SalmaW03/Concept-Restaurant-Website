@@ -33,6 +33,7 @@
     top: 0;
     background: rgba(0, 0, 0, .9);
     width: 100%;
+    height: 90%;
     left: 0;
     z-index: 888;
 }
@@ -46,7 +47,6 @@
 
 #fullscreen {
     width: 80%;
-    height: 90%;
     object-fit: contain;
     animation: zoomin .2s 1;
     overflow: hidden;
