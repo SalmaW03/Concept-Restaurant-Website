@@ -182,5 +182,5 @@ const hamMenu = document.querySelector(".ham-menu");
 hamMenu.addEventListener("click", () => {
     hamMenu.classList.toggle("active");
 
-    document.body.classList.toggle("hide");
+    document.body.classList.toggle("hide1");
 })
