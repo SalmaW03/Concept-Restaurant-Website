@@ -168,6 +168,8 @@ h2 { font-weight: 100; }
     display: none;
 }
 
+.ham-menu { margin-top: 1.5%; }
+
 input[type="checkbox"] { display: none; }
 
 #menu-button:checked ~ .menu-1 { height: 100vh; }
