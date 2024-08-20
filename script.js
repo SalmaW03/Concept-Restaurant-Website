@@ -3,6 +3,7 @@ function zoom(imgLink) {
     document.getElementById("full-screen-view").style.display = "block";
 
     document.body.classList.add("hide");
+    document.body.classList.remove("none2");
 }
 
 function closeZoom() {
