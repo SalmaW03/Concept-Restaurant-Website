@@ -207,8 +207,7 @@ input[type="checkbox"] { display: none; }
 }
 
 body.hide { 
-    overflow: hidden;
-    height: 100vh;
+    position: fixed;
 }
 
 @media all and (min-width: 1200px) {
