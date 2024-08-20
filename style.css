@@ -208,8 +208,10 @@ input[type="checkbox"] { display: none; }
 
 body.hide { 
     position: fixed;
-    overflow: hidden;
+    overflow: hidden; 
 }
+
+.nonee { display: none; }
 
 .hide1 { overflow: hidden; }
 
