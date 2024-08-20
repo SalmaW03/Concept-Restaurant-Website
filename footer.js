@@ -76,7 +76,7 @@ class myNav extends HTMLElement {
         </div>
 
 
-        <div class="none2" id="none2">
+        <div class="none2">
         <div id="customID2" class="cta">
             <h1>
                 <a href="index.html" class="logo2">CROÛTE</a>
