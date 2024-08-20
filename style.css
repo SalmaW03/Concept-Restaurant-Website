@@ -207,7 +207,7 @@ input[type="checkbox"] { display: none; }
 }
 
 body.hide { 
-  position: fixed;
+  background-attachment: hidden;
 }
 
 .hide1 { overflow: hidden; }
