@@ -211,6 +211,8 @@ body.hide {
     overflow: hidden; 
 }
 
+.none2 { display: none; }
+
 .hide1 { overflow: hidden; }
 
 @media all and (min-width: 1200px) {
@@ -219,6 +221,9 @@ body.hide {
 
 @media all and (max-width: 600px) {
     .none { display: none; }
+    
+    .none2 { display: block; }
+
     #hamburger-icon { display: block; }
 
     .logo2 { display: block; }
