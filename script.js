@@ -3,14 +3,14 @@ function zoom(imgLink) {
     document.getElementById("full-screen-view").style.display = "block";
 
     document.body.classList.add("hide");
-     document.getElementById("none2").style.display = "none";
+     document.getElementsByClassName("none2").style.display = "none";
 }
 
 function closeZoom() {
     document.getElementById("full-screen-view").style.display = "none";
 
     document.body.classList.remove("hide");
-    document.getElementById("none2").style.display = "block";
+    document.getElementsByClassName("none2").style.display = "block";
 }
 
 const target = document.getElementById("target");
