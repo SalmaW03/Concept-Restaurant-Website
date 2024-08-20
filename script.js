@@ -10,6 +10,7 @@ function closeZoom() {
     document.getElementById("full-screen-view").style.display = "none";
 
     document.body.classList.remove("hide");
+    document.getElementById("none2").style.display = "block";
 }
 
 const target = document.getElementById("target");
