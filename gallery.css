@@ -50,6 +50,7 @@
     object-fit: contain;
     animation: zoomin .2s 1;
     overflow: hidden;
+    position: fixed;
 }
 
 @keyframes zoomin {
