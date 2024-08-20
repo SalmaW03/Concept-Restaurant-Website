@@ -206,7 +206,10 @@ input[type="checkbox"] { display: none; }
     left: -91vw;
 }
 
-body.hide { overflow: hidden; }
+body.hide { 
+    overflow: hidden;
+    height: 100vh;
+}
 
 @media all and (min-width: 1200px) {
     footer { height: 100%; }
