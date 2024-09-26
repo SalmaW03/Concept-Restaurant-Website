@@ -155,7 +155,7 @@ h3 {
     right: 2vw;
 }
 
-.attribute3 { right: 0; }
+.attribute3 { right: 5vw; }
 
 @media all and (min-width: 600px) {
     .ul { margin-top: 2vh; }
