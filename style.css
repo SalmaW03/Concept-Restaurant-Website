@@ -63,16 +63,21 @@ footer {
 
 .title2 {
     text-align: center;
-    font-size: 5vw;
+    font-size: 3vw;
     padding-top: 2.5vh;
     margin-bottom: 5vh;
 }
 
-.area1, .area2 { margin-left: 3vw; }
+.area1, .area2 { margin-left: 2.8vw; }
 
 .area1 { padding-bottom: 2%; }
 
-.area2, .time { font-size: 2.5vw; }
+.cover {
+    margin: 8vw;
+    text-align: left;
+}
+
+.area2, .time { font-size: 1.5vw; }
 
 .time {
     margin-top: 2%;
@@ -211,8 +216,6 @@ body.hide {
     overflow: hidden; 
 }
 
-.none2 { display: none; }
-
 .hide1 { overflow: hidden; }
 
 @media all and (min-width: 1200px) {
@@ -221,8 +224,6 @@ body.hide {
 
 @media all and (max-width: 600px) {
     .none { display: none; }
-    
-    .none2 { display: block; }
 
     #hamburger-icon { display: block; }
 
