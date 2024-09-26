@@ -155,7 +155,7 @@ h3 {
     right: 2vw;
 }
 
-.attribute3 { right: 5vw; }
+.attribute3 { right: .1%; }
 
 @media all and (min-width: 600px) {
     .ul { margin-top: 2vh; }
@@ -176,4 +176,9 @@ h3 {
     .ul { margin-top: 10vh; }
     .li { line-height: 11vh; }
     .subtitle { font-size: 2vw; }
+}
+
+
+@media all and (min-width: 1300px) {
+    .attribute3 { right: 5%; }
 }
